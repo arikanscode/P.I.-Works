@@ -18,31 +18,31 @@ There is a checkbox labeled 'Hide Disabled User' next to the 'New User' button. 
 ## New User Form
 Clicking on the 'New User' button opens the New User Form. This form allows you to add a new user with the following fields:
 
--Username: The user name of the user (required, alphanumeric characters only).
--Display Name: The display name of the user (required, up to 50 characters).
--Phone: The phone number of the user (optional, up to 20 characters).
--Email: The email address of the user (required, up to 100 characters).
--User Roles: The role(s) of the user (required, one or more of Guest, Admin, or SuperAdmin).
--Enabled: Whether the user is currently active or not (required, defaults to true).
--The User Roles field is now a set of checkboxes instead of a dropdown list. You can select one or more of the Guest, Admin, or SuperAdmin roles.
+- Username: The user name of the user (required, alphanumeric characters only).
+- Display Name: The display name of the user (required, up to 50 characters).
+- Phone: The phone number of the user (optional, up to 20 characters).
+- Email: The email address of the user (required, up to 100 characters).
+- User Roles: The role(s) of the user (required, one or more of Guest, Admin, or SuperAdmin).
+- Enabled: Whether the user is currently active or not (required, defaults to true).
+- The User Roles field is now a set of checkboxes instead of a dropdown list. You can select one or more of the Guest, Admin, or SuperAdmin roles.
 
 ## UI Components
 The User Management Screen consists of the following UI components:
 
--User List Table: A table that displays a list of existing users.
--New User Button: A button that opens the New User Form.
--Hide Disabled User Checkbox: A checkbox that toggles the display of disabled users in the User List Table.
--New User Form: A form that allows you to add a new user.
+- User List Table: A table that displays a list of existing users.
+- New User Button: A button that opens the New User Form.
+- Hide Disabled User Checkbox: A checkbox that toggles the display of disabled users in the User List Table.
+- New User Form: A form that allows you to add a new user.
 
 ## Behavior of Components
 
 ### User List Table
 The User List Table displays a list of users in alphabetical order by User Name. The table displays the following columns:
 
--ID: The unique identifier of the user.
--User Name: The user name of the user.
--Email: The email address of the user.
--Enabled: Whether the user is currently active or not.
+- ID: The unique identifier of the user.
+- User Name: The user name of the user.
+- Email: The email address of the user.
+- Enabled: Whether the user is currently active or not.
 
 Clicking on a user row in the table opens the Edit User Form.
 
@@ -56,11 +56,11 @@ When the 'Hide Disabled User' checkbox is checked, only enabled users are displa
 The New User Form allows you to add a new user with the following fields:
 
 -Username: The user name of the user (required, alphanumeric characters only).
--Display Name: The display name of the user (required, up to 50 characters).
--Phone: The phone number of the user (optional, up to 20 characters).
--Email: The email address of the user (required, up to 100 characters).
--User Roles: The role(s) of the user (required, one or more of Guest, Admin, or SuperAdmin).
--Enabled: Whether the user is currently active or not (required, defaults to true).
+- Display Name: The display name of the user (required, up to 50 characters).
+- Phone: The phone number of the user (optional, up to 20 characters).
+- Email: The email address of the user (required, up to 100 characters).
+- User Roles: The role(s) of the user (required, one or more of Guest, Admin, or SuperAdmin).
+- Enabled: Whether the user is currently active or not (required, defaults to true).
 
 Once you have filled out the form, clicking the 'Create User' button adds the new user to the system and redirects you back to the User List Table.
 
@@ -76,8 +76,8 @@ The User Management Screen allows you to manage users in the system by displayin
 ## Visual Representation
 Here is a visual representation of the User Management Screen:
 
-+-------------------------------------------------+
-|             User Management Screen              |
+:-- +-------------------------------------------------+
+:-- |             User Management Screen              |
 +-------------------------------------------------+
 |                           
 |   [ New User ]         [ ] Hide Disabled User   |
