@@ -82,9 +82,8 @@ Here is a visual representation of the User Management Screen:
 
 | ID | User Name   | Email          | Enabled |
 |----|-------------|----------------|---------|
-| 1  | johndoe     | johndoe@ex.com | Yes     |
-| 2  | janedoe     | janedoe@ex.com | No      |
-| 3  | jsmith      | jsmith@ex.com  | Yes     |
+| 1  | AdminUser| admin@piworks.net |  True   |
+| 2  | TestUser| testuser@piworks.net | True  |
 
 #### New User Form
 
