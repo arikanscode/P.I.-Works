@@ -76,43 +76,40 @@ The User Management Screen allows you to manage users in the system by displayin
 ## Visual Representation
 Here is a visual representation of the User Management Screen:
 
-+-------------------------------------------------+ <br />
-|             User Management Screen              | <br />
-+-------------------------------------------------+ <br />
-|                                                   <br />
-|   [ New User ]         [ ] Hide Disabled User   | <br />
-|                                                 | <br />
-                                                    <br />
-|   User List Table                               | <br />
-|                                                 | <br />
-|   +----+-------------+----------------+-------+.  <br />
-|   | ID | User Name   | Email          | Enabled | <br />
-|   +----+-------------+----------------+-------+.  <br />
-|   | 1  | AdminUser| admin@piworks.net    | true | <br />
-|   | 2  | TestUser | testuser@piworks.net | true | <br />
-|   +----+-------------+----------------+-------+.  <br />
-|                                                 | <br />
-|                                                 |
-|   New User Form                                 |
-|                                                 |
-|   Username:  [___________]                      |
-|                                                 |
-|   Display Name: [___________]                   |
-|                                                 |
-|   Phone: [___________]                          |
-|                                                 |
-|   Email: [___________]                          |
-|                                                 |
-|   User Roles:                                   |
-|   [ ] Guest                                     |
-|   [ ] Admin                                     |
-|   [ ] SuperAdmin                                |
-|                                                 |
-|   Enabled  [x]                                  |
-|                                                 |
-|   [Create User]                                 |
-|                                                 |
-+-------------------------------------------------+
+### User Management Screen
+
+#### User List Table
+
+| ID | User Name   | Email          | Enabled |
+|----|-------------|----------------|---------|
+| 1  | johndoe     | johndoe@ex.com | Yes     |
+| 2  | janedoe     | janedoe@ex.com | No      |
+| 3  | jsmith      | jsmith@ex.com  | Yes     |
+
+#### New User Form
+
+Username:  [___________]
+
+Display Name: [___________]
+
+Phone: [___________]
+
+Email: [___________]
+
+User Roles:
+- [ ] Guest
+- [ ] Admin
+- [ ] SuperAdmin
+
+[ ] Enabled
+
+[Create User]
+
+#### Controls
+
+- [ ] Hide Disabled User
+- [ New User ]
+ 
 Note: This is just a sample mockup and the actual design may differ based on the requirements and preferences of the project.
 
 
