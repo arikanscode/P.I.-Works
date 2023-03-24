@@ -76,11 +76,11 @@ The User Management Screen allows you to manage users in the system by displayin
 ## Visual Representation
 Here is a visual representation of the User Management Screen:
 
-:-- +-------------------------------------------------+
-:-- |             User Management Screen              |
-+-------------------------------------------------+
-|                           
-|   [ New User ]         [ ] Hide Disabled User   |
+:-- +---------------------------------------------+ <br />
+:-- |             User Management Screen          | <br />
++-------------------------------------------------+ <br />
+|                                                   <br />
+|   [ New User ]         [ ] Hide Disabled User   | <br />
 |                                                 |
 
 |   User List Table                               |
