@@ -100,7 +100,7 @@ User Roles:
 - [ ] Admin
 - [ ] SuperAdmin
 
-[ ] Enabled
+Enabled [ ] 
 
 [Create User]
 
