@@ -76,22 +76,22 @@ The User Management Screen allows you to manage users in the system by displayin
 ## Visual Representation
 Here is a visual representation of the User Management Screen:
 
-:-- +---------------------------------------------+ <br />
-:-- |             User Management Screen          | <br />
++-------------------------------------------------+ <br />
+|             User Management Screen              | <br />
 +-------------------------------------------------+ <br />
 |                                                   <br />
 |   [ New User ]         [ ] Hide Disabled User   | <br />
-|                                                 |
-
-|   User List Table                               |
-|                                                 |
-|   +----+-------------+----------------+-------+
-|   | ID | User Name   | Email          | Enabled |
-|   +----+-------------+----------------+-------+
-|   | 1  | AdminUser| admin@piworks.net    | true |
-|   | 2  | TestUser | testuser@piworks.net | true |
-|   +----+-------------+----------------+-------+
-|                                                 |
+|                                                 | <br />
+                                                    <br />
+|   User List Table                               | <br />
+|                                                 | <br />
+|   +----+-------------+----------------+-------+.  <br />
+|   | ID | User Name   | Email          | Enabled | <br />
+|   +----+-------------+----------------+-------+.  <br />
+|   | 1  | AdminUser| admin@piworks.net    | true | <br />
+|   | 2  | TestUser | testuser@piworks.net | true | <br />
+|   +----+-------------+----------------+-------+.  <br />
+|                                                 | <br />
 |                                                 |
 |   New User Form                                 |
 |                                                 |
