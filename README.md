@@ -6,11 +6,11 @@ The User Management Screen provides a list of existing users and allows you to a
 ## User List
 The User List displays all users in the system. The table columns are:
 
--ID: The unique identifier of the user.
--User Name: The user name of the user.
--Email: The email address of the user.
--Enabled: Whether the user is currently active or not.
--Users are listed in alphabetical order by User Name.
+- ID: The unique identifier of the user.
+- User Name: The user name of the user.
+- Email: The email address of the user.
+- Enabled: Whether the user is currently active or not.
+- Users are listed in alphabetical order by User Name.
 
 ### Hide Disabled User Checkbox
 There is a checkbox labeled 'Hide Disabled User' next to the 'New User' button. When this checkbox is checked, only enabled users are displayed in the User List Table. When it is unchecked, all users, both enabled and disabled, are displayed.
